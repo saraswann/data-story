@@ -1,8 +1,8 @@
 id,value
 root,
-root.analytics,
-root.analytics.cluster,
-root.analytics.cluster.AgglomerativeCluster,3938
-root.analytics.cluster.CommunityStructure,3812
-root.analytics.cluster.HierarchicalCluster,6714
-root.analytics.cluster.MergeEdge,743
+root.
+root,
+root.AgglomerativeCluster,3938
+root.CommunityStructure,3812
+root.HierarchicalCluster,6714
+root.MergeEdge,743
