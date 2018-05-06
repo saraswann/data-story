@@ -1,0 +1,8 @@
+svg.bubble-chart {
+        text-anchor: middle;
+        font-family: sans-serif;
+    }
+    
+    .bubble-chart .node text {
+        font-size: 8px;
+    }
