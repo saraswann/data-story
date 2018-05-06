@@ -1,7 +1,7 @@
 var svg = d3.select("#dummy-bubble-chart-container")
             .append("svg")
-            .attr("width", 940)
-            .attr("height", 940)
+            .attr("width", 600)
+            .attr("height", 600)
             .attr("class", "bubble-chart")
             .attr("text-anchor", "middle"),
     width = +svg.attr("width"),
