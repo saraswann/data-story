@@ -1,36 +1,33 @@
-body {
-  background-color: #F1F3F3    
-}
-.axis {
+#dummy-line-chart-container .axis {
 	font: 10px sans-serif;
 }
 
-.axis path,
-.axis line {
+#dummy-line-chart-container .axis path,
+#dummy-line-chart-container .axis line {
   fill: none;
   stroke: #D4D8DA;
   stroke-width: 2px;
   shape-rendering: crispEdges;
 }
 
-.line {
+#dummy-line-chart-container .line {
   fill: none;
   stroke: #6F257F;
   stroke-width: 5px;
 }
 
-.overlay {
+#dummy-line-chart-container .overlay {
   fill: none;
   pointer-events: all;
 }
 
-.focus circle {
+#dummy-line-chart-container .focus circle {
   fill: #F1F3F3;
   stroke: #6F257F;
   stroke-width: 5px;
 }
   
-.hover-line {
+#dummy-line-chart-container .hover-line {
   stroke: #6F257F;
   stroke-width: 2px;
   stroke-dasharray: 3,3;
