@@ -1,5 +1,3 @@
-<script>
-
 var svg = d3.select("#dummy-bubble-chart-container")
             .append("svg")
             .attr("width", 940)
@@ -61,5 +59,3 @@ d3.csv("bubble-data.csv", function(d) {
   node.append("title")
       .text(function(d) { return d.id + "\n" + format(d.value); });
 });
-
-</script>
